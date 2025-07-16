@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40">
+  <!-- 1. 灰色的高亮背景 -->
+  <rect x="0" y="0" width="100" height="40" rx="4" ry="4" fill="#363636"/>
+  
+  <!-- 2. 蓝色的状态竖线 -->
+  <!-- x="7" y="8" 控制位置，width="4" 控制粗细, height="24" 控制长度, rx="4" 控制圆角 -->
+  <rect x="0" y="8" width="4" height="24" rx="4" ry="4" fill="#60CDFF"/>
+</svg>
