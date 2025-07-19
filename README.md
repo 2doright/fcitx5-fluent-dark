@@ -2,60 +2,11 @@
 
 # Fcitx5 Fluent Dark Theme
 
-[English](#-english) | [简体中文](#-简体中文)
+[简体中文](#-简体中文) | [English](#-english)
 
 </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-
-<a name="-english"></a>
-
-## 🇬🇧 English
-
-A Fluent Design dark theme for Fcitx5, inspired by the Windows 11 Input Method Editor. It's designed to be clean, modern.
-
-![Screenshot](screenshot.png)
-
-### ✨ Features
-
--   **Fluent Design:** Mimics the look and feel of Windows 11.
--   **Dark Mode:** Easy on the eyes.
--   **SVG-based:** Scales perfectly on HiDPI displays.
-
-### ⚙️ Installation
-
-#### 1. Manual Installation
-
-1.  Download the latest release or clone this repository.
-2.  Copy the `Fluent-Dark` directory to the Fcitx5 themes folder:
-    ```bash
-    cp -r Fluent-Dark ~/.local/share/fcitx5/themes/
-    ```
-3.  Right-click on the Fcitx5 tray icon, go to **Configure -> Add-ons -> Classic User Interface -> Theme**, and select **Fluent-Dark** from the list.
-4.  Click **Apply** to see the changes.
-
-#### 2. Git Clone Installation
-
-For those who prefer to manage it with Git:
-   ```bash
-   git clone https://github.com/2doright/fcitx5-fluent-dark.git
-   cd fcitx5-fluent-dark
-   cp -r Fluent-Dark ~/.local/share/fcitx5/themes/
-   ```
-Then, select the theme in Fcitx5 configuration as described above.
-
-### 📝 Font Configuration
-
-This theme looks best with a font like **Microsoft YaHei UI**. To set the font:
-1.  In the **Classic User Interface** configuration window, find the **Font** setting.
-2.  Set the font to `Microsoft YaHei UI` or your preferred system font.
-3.  Adjust the font size to your liking.
-
-### 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -105,3 +56,52 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ### 📄 许可证
 
 本项目采用 **MIT 许可证** 授权。详情请参阅 [LICENSE](LICENSE) 文件。
+
+---
+
+<a name="-english"></a>
+
+## 🇬🇧 English
+
+A Fluent Design dark theme for Fcitx5, inspired by the Windows 11 Input Method Editor. It's designed to be clean, modern.
+
+![Screenshot](screenshot.png)
+
+### ✨ Features
+
+-   **Fluent Design:** Mimics the look and feel of Windows 11.
+-   **Dark Mode:** Easy on the eyes.
+-   **SVG-based:** Scales perfectly on HiDPI displays.
+
+### ⚙️ Installation
+
+#### 1. Manual Installation
+
+1.  Download the latest release or clone this repository.
+2.  Copy the `Fluent-Dark` directory to the Fcitx5 themes folder:
+    ```bash
+    cp -r Fluent-Dark ~/.local/share/fcitx5/themes/
+    ```
+3.  Right-click on the Fcitx5 tray icon, go to **Configure -> Add-ons -> Classic User Interface -> Theme**, and select **Fluent-Dark** from the list.
+4.  Click **Apply** to see the changes.
+
+#### 2. Git Clone Installation
+
+For those who prefer to manage it with Git:
+   ```bash
+   git clone https://github.com/2doright/fcitx5-fluent-dark.git
+   cd fcitx5-fluent-dark
+   cp -r Fluent-Dark ~/.local/share/fcitx5/themes/
+   ```
+Then, select the theme in Fcitx5 configuration as described above.
+
+### 📝 Font Configuration
+
+This theme looks best with a font like **Microsoft YaHei UI**. To set the font:
+1.  In the **Classic User Interface** configuration window, find the **Font** setting.
+2.  Set the font to `Microsoft YaHei UI` or your preferred system font.
+3.  Adjust the font size to your liking.
+
+### 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
